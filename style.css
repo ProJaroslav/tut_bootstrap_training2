@@ -1,0 +1,154 @@
+/* COLORS
+*/
+/* VARIABLES */
+/* BODY */
+body {
+  font-family: 'Syne Mono';
+}
+
+.container {
+  margin: 0 auto !important;
+  max-width: 90% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+a {
+  color: #642364;
+}
+
+input {
+  background-color: #210F21 !important;
+  color: #642364 !important;
+}
+
+img {
+  -webkit-filter: grayscale(50%) brightness(0.8);
+          filter: grayscale(50%) brightness(0.8);
+}
+
+img.rounded-circle {
+  -webkit-filter: none;
+          filter: none;
+  border: 2px solid #210F21;
+}
+
+/* header */
+.navbar {
+  background-color: black;
+  color: #210F21 !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu a {
+  font-size: 8.5rem;
+}
+
+.btn-main {
+  background-color: #210F21;
+  color: #642364 !important;
+  outline: none;
+  border: 1px solid #210F21 !important;
+  border-left: 1px solid black !important;
+}
+
+/* SECTION 2 */
+.section-2 {
+  background-color: #210F21;
+}
+
+.section-2 .container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.badges {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.badges > a {
+  padding: 2px;
+  background-color: black;
+  color: #642364;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+}
+
+.section-2-post {
+  position: relative;
+}
+
+.section-2-post-content {
+  position: absolute;
+  bottom: 20px;
+  color: #642364;
+  padding-left: 10px;
+}
+
+.section-2-post-content h3 {
+  padding-top: 0.6em;
+}
+
+.section-3 {
+  background-color: black;
+  color: #642364;
+}
+
+.blog-post {
+  background-color: #210F21;
+}
+
+.blog-post .col-sm-8 {
+  border-left: 3px solid #642364;
+}
+
+.blog-post .badge a {
+  margin-left: 0.5rem;
+  padding: 0.8rem;
+  background-color: black;
+}
+
+.social-links i {
+  font-size: 3em;
+  border-bottom: 3px solid #642364;
+}
+
+.social-links i:hover {
+  margin-left: 80 px;
+}
+
+footer {
+  background-color: #210F21;
+}
+
+footer h4,
+p {
+  color: #642364;
+}
+
+footer .form-control {
+  background-color: #642364 !important;
+  color: #210F21 !important;
+  border: none !important;
+}
+
+footer .btn {
+  background-color: #642364;
+  color: #210F21 !important;
+  outline: none;
+  border: 1px solid #642364 !important;
+  border-left: 1px solid black !important;
+}
+/*# sourceMappingURL=style.css.map */

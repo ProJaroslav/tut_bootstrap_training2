@@ -1,0 +1,166 @@
+/* COLORS
+*/
+
+/* VARIABLES */
+$black: black;
+$font: #642364;
+$background: #210F21;
+
+/* BODY */
+body {
+    font-family: 'Syne Mono';
+}
+
+.container {
+    margin: 0 auto !important;
+    max-width: 90% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+a {
+    color: $font;
+}
+
+input {
+    background-color: $background !important;
+    color: $font !important;
+}
+
+img {
+    filter: grayscale(50%) brightness(0.8);
+}
+
+img.rounded-circle {
+    filter: none;
+    border: 2px solid $background;
+}
+
+/* header */
+
+.navbar {
+    background-color: $black;
+    color: $background !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.dropdown-menu a {
+    font-size: 8.5rem;
+}
+
+.btn-main {
+    background-color: $background;
+    color: $font !important;
+    outline: none;
+    border: 1px solid $background !important;
+    border-left: 1px solid $black !important;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+    background-color: $background;
+}
+
+.section-2 .container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.badges {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.badges>a {
+    padding: 2px;
+    background-color: $black;
+    color: $font;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+
+.section-2-post {
+    position: relative;
+}
+
+.section-2-post-content {
+    position: absolute;
+    bottom: 20px;
+    color: $font;
+    padding-left: 10px;
+}
+
+
+.section-2-post-content h3 {
+    padding-top: 0.6em;
+}
+
+// section 3
+
+.section-3 {
+    background-color: $black;
+    color: $font;
+}
+
+.blog-post {
+    background-color: $background;
+}
+
+.blog-post .col-sm-8 {
+    border-left: 3px solid $font;
+}
+
+.blog-post .badge a {
+    margin-left: 0.5rem;
+    padding: 0.8rem;
+    background-color: $black;
+}
+
+// ASIDE 
+
+.social-links i {
+    font-size: 3em;
+    border-bottom: 3px solid $font;
+}
+
+.social-links i:hover {
+    margin-left: 80 px;
+}
+
+// footer 
+footer {
+    background-color: $background;
+}
+
+footer h4,
+p {
+    color: $font
+}
+
+footer .form-control {
+    background-color: $font !important;
+    color: $background !important;
+    border: none !important;
+}
+
+
+footer .btn {
+    background-color: $font;
+    color: $background !important;
+    outline: none;
+    border: 1px solid $font !important;
+    border-left: 1px solid $black !important;
+}
